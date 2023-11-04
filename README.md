@@ -17,7 +17,7 @@ Make sure you have Rust installed on your machine. If not, download and install 
 Clone the NetSleuth repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/NetSleuth.git
+git clone https://github.com/mm9942/NetSleuth.git
 cd NetSleuth
 ```
 
