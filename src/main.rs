@@ -365,7 +365,6 @@ impl NetworkScanner {
         for result in results {
             match result {
                 Ok(Some(port)) => {
-                    // Insert the open port into the HashMap
                     open_ports.entry(ip.clone()).or_insert_with(Vec::new).push(port);
                 }
                 Ok(None) => {}
@@ -419,7 +418,6 @@ impl NetworkScanner {
         for result in results {
             match result {
                 Ok(Some(port)) => {
-                    // Insert the open port into the HashMap
                     open_ports.entry(ip.clone()).or_insert_with(Vec::new).push(port);
                 }
                 Ok(None) => {}
@@ -490,7 +488,7 @@ async fn main() {
         },
     };
 
-    let cidr = match cli.cidr {
+    let cidr = match cli.cidr { 
         Some(value) => {
             println!("Target CIDR: {}", value);
             value
