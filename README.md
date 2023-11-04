@@ -60,7 +60,3 @@ Feel free to fork the repository, create feature branches, and send us pull requ
 ## License
 
 NetSleuth is licensed under the MIT License. See the LICENSE file for more details.
-
---- 
-
-This README provides a straightforward overview of your project, its features, and how to install and use it. It also gives potential contributors a way to understand how they might participate in the project.
